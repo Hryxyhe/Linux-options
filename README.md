@@ -45,7 +45,7 @@ linux指令学习
 # ---在tmux中启用滚动和鼠标支持---
 * ①nano ~/.tmux.conf：使用nano编辑器在终端打开或创建~/.tmux.conf文件
 * ②在~/.tmux.conf文件添加以下内容：
-* # 启用鼠标支持
+* 启用鼠标支持
 * set -g mouse on
 * 启用滚动支持
 * set -g terminal-overrides 'xterm*:smcup@:rmcup@'
