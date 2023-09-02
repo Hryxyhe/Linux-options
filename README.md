@@ -13,9 +13,7 @@ linux指令学习
 * screen -r my_session：重新连接到会话窗口
 * screen -list:列出所有窗口
 * screen -r ip：进入某个窗口，ip为my_session前面的数字
-
-# ----配置screen的配置文件----
-* 在screen会话窗口下显示滚动条，并设置滚动缓冲区的大小为10000行：termcapinfo xterm* ti@:te@defscrollback 10000
+* 配置screen的配置文件：在screen会话窗口下显示滚动条，并设置滚动缓冲区的大小为10000行：termcapinfo xterm* ti@:te@defscrollback 10000
 
 # --实时观察gpu--
 * watch -n 1 nvidia-smi
